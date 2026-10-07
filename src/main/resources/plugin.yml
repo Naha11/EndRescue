@@ -1,0 +1,10 @@
+name: EndRescue
+version: '${project.version}'
+main: com.arcanevale.endrescue.EndRescue
+api-version: '1.21'
+folia-supported: true
+description: Вытаскивает игроков, застрявших в энде, на спавн или к их кровати.
+permissions:
+  endrescue.bypass:
+    description: Плагин не трогает обладателя этого права
+    default: false
